@@ -10,30 +10,132 @@ body {
 	background-color: #F1F1F1;
 }
 header {
-	top: 20px;
-	width: 1166px;
-	height: 80px;
-	padding: 20px;
-	margin: 76px auto;
-	
+	width: 100%;
+	top: 0;
+	background-color: #F1F1F1;
 }
 header > nav {
+	position:sticky ;
+	width: 1166px;
+	height: 30px;
+	padding: 20px;
 	margin: 0 auto;
 }
-nav > a {
+ a {
+	position: sticky;
+	top: 20px;
 	text-decoration: none;
-	font-weight: 700;
+	font-size: 11;
+	font-family: "Roboto", sans-serif;
 	margin-right: 35px;
+	color: black;
+	font-weight: 700;
 }
 main {
 	width: 1166px;
-	border: 1px;
-
+	margin: 76px auto;
 }
 footer {
-	height: 200px;
 	width: 100%;
+	height: 200px;
+	background-color: #243043;
+	position: absolute; 
+
 }
 footer > .footer-content {
+	width: 1166px;
+	margin: 0 auto;
+}
+ul {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 700;
+	font-family: "Roboto", sans-serif;
+	color: #818687;
+	margin-top: 14px;
+	margin-left: 137px;
+	text-decoration: none;
+}
+#head1 {
+	font-size: 24px;
+	font-weight: 700;
+	font-family: "Roboto", sans-serif;
+}
+.img {
+	display: inline-block;
+	margin-right: 24px;
+	width: 362px;
+}
+.shape {
+	width: 362px;
+	height: 171px;
+	background-color: white;
+}
+.text {
+	display: inline-block;
+	font-size: 10px;
+	font-family: "Roboto", sans-serif;
+	color: #8A8787;
+	margin-top: 67px;
+	margin-left: 37px;
+	height: 36px;
+}
+.inl-block {
+	display: inline-block;
+}
+#head2 {
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+	font-weight: 800;
+	margin-top: 57px;
 
+}
+#div1 {
+	width: 630px;
+}
+#div2 {
+	width: 362px;
+}
+.first {
+	width: 630px;
+	height: 373px;
+	margin-top: 42px;
+}
+.second {
+	width: 362px;
+	height: 212px;
+	margin-top: 100px;
+	margin-right: 50px;
+}
+#in-picture {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+	position: absolute;
+	top: 836px;
+	left: 385px;
+}
+#last {
+	font-family: "Roboto", sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	color: white;
+	position: absolute;
+	left: 599px;
+	bottom: 128px;
+}
+#geolab {
+	width: 38px;
+	height: 40px;
+	position: absolute;
+	bottom: 103px;
+	left: 1264px;
+}
+.list {
+	font-family: "Roboto", sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	margin-bottom: 14px;
+	color: #818687;
 }

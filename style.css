@@ -33,7 +33,7 @@ header > nav {
 }
 main {
 	width: 1166px;
-	margin: 76px auto;
+	margin: 0 auto;
 }
 footer {
 	width: 100%;
@@ -60,6 +60,8 @@ ul {
 	font-size: 24px;
 	font-weight: 700;
 	font-family: "Roboto", sans-serif;
+	margin-bottom: 27px;
+	margin-top: 42px;
 }
 .img {
 	display: inline-block;
@@ -88,15 +90,25 @@ ul {
 	font-size: 24px;
 	font-weight: 800;
 	margin-top: 57px;
-
+	margin-bottom: 30px;
 }
 #div1 {
+	display: inline-block;
 	width: 630px;
+	margin-right: 45px;
 }
 #div2 {
+	display: inline-block;
 	width: 362px;
 }
-.first {
+#first1 {
+	width: 630px;
+	height: 373px;
+	margin-top: 42px;
+	position: absolute;
+    top: 604px;
+}
+#first2 {
 	width: 630px;
 	height: 373px;
 	margin-top: 42px;
@@ -104,7 +116,7 @@ ul {
 .second {
 	width: 362px;
 	height: 212px;
-	margin-top: 100px;
+	margin-bottom: 100px;
 	margin-right: 50px;
 }
 #in-picture {

@@ -66,6 +66,10 @@ li {
 	margin-bottom: 27px;
 	margin-top: 42px;
 }
+#profilepicture {
+	position: sticky;
+	top: 11px;
+}
 .img {
 	display: inline-block;
 	margin-right: 24px;
@@ -122,7 +126,78 @@ li {
 	margin-bottom: 100px;
 	margin-right: 50px;
 }
-#in-picture {
+#in-picture1 {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+	position: relative;
+	top: -162px;
+    left: 70px;
+}
+#in-picture2{
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+	position: relative;
+	top: -162px;
+	left: 75px;
+}
+#in-picture3 {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+	position: relative;
+	top: -162px;
+    left: 89px;;
+}
+
+#svg1 {
+	position: relative;
+    top: 25px;
+    left: -233px;
+	font-size: 10px;
+	font-family: "Roboto", sans-serif;
+	color: #8A8787;
+}
+#svg2 {
+	position: relative;
+    top: 25px;
+    left: -197px; 
+}
+#svg3 {
+	position: relative;
+    top: 25px;
+    left: -200px;
+}
+#span1 {
+	position: relative;
+	top: 21px;
+	left: -227px;
+	font-size: 10px;
+	font-family: "Roboto", sans-serif;
+	color: #8A8787;
+}
+#span2 {
+	position: relative;
+	top: 21px;
+	left: -190px;
+	font-size: 10px;
+	font-family: "Roboto", sans-serif;
+	color: #8A8787;
+}
+#span3 {
+	position: relative;
+	top: 21px;
+	left: -191px;
+	font-size: 10px;
+	font-family: "Roboto", sans-serif;
+	color: #8A8787;
+}
+
+#in-picture4 {
 	font-family: "Roboto", sans-serif;
 	font-size: 20px;
 	font-weight: 700;

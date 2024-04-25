@@ -10,12 +10,14 @@ body {
 	background-color: #F1F1F1;
 }
 header {
+	position: fixed;
 	width: 100%;
 	top: 0;
 	background-color: #F1F1F1;
 }
 header > nav {
 	position:sticky ;
+	z-index: 10000;
 	width: 1166px;
 	height: 30px;
 	padding: 20px;
@@ -111,14 +113,14 @@ li {
 #first1 {
 	width: 630px;
 	height: 373px;
-	margin-top: 42px;
-	position: absolute;
-    top: 604px;
+	margin-bottom: 42px;
+	
 }
 #first2 {
 	width: 630px;
 	height: 373px;
-	margin-top: 42px;
+	margin-bottom: 32px;
+
 }
 .second {
 	width: 362px;
@@ -202,9 +204,9 @@ li {
 	font-size: 20px;
 	font-weight: 700;
 	color: white;
-	position: absolute;
-	top: 836px;
-	left: 385px;
+	position: relative;
+    top: -251px;
+    left: 190px;
 }
 #last {
 	font-family: "Roboto", sans-serif;
@@ -212,8 +214,8 @@ li {
 	font-weight: 400;
 	color: white;
 	position: absolute;
-	left: 599px;
-	bottom: 128px;
+	left: 770px;
+	bottom: 100px;
 }
 #geolab {
 	width: 38px;
@@ -221,7 +223,4 @@ li {
 	position: absolute;
 	bottom: 103px;
 	left: 1264px;
-}
-#ol {
-	margin-left: 137px;
 }
